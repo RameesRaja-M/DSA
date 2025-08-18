@@ -1,5 +1,10 @@
-for(let i = 5; i > 0; i--){
-    for(let j = 0; j < i ; j++){
-        console.log(i,j)
+let n = 5;
+
+for(let i = 0; i <= n; i++){
+    let row = "";
+    for(let j = 0; j < i+1; j++){
+        row = row + (j + 1)
     }
+    console.log(row);
+    
 }
